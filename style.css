@@ -1,0 +1,130 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(2109.jpg);
+    background-size: 360%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+header{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu{
+    background-color: none;
+    font-size: 120%;
+    background-color: #EEE0E5;
+    position: fixed;
+    width: 100vw;
+    top: 0;
+}
+
+.menu a{
+    text-decoration: none;
+    color: #00688B;
+    display: block;
+    padding: 10px 20px;
+}
+
+a:hover{
+    background-color: #00688B;
+    color: #EEE0E5;
+    transition-duration: 0.5s;
+}
+
+.menu ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu li{
+    list-style: none;
+}
+
+.site-title, .site-subtitle{
+    text-align: center;
+    color: #828282;   
+    font-family: 'Dancing Script', cursive;
+}
+
+.site-title{
+    font-size: 3em;
+}
+
+.site-subtitle{
+    font-size: 2em;
+    font-style: italic;
+}
+
+.img-portfolio{
+    width: 200px;
+}
+
+.portifolio{
+    padding: 2em; 
+    background-color: #EEE0E5;
+}
+
+.portifolio figure{
+    text-align: center;
+}
+
+.portifolio h2{
+    color: #00688B; 
+    margin-bottom: 1.5em;
+    font-size: -1em;
+}
+
+.figcaption1{
+    color: #00688B;
+}
+
+.portifolio .grid{
+    display: grid;    
+    gap: 2em;
+    grid-template-columns: 200px;
+    justify-content: center;
+}
+
+@media (min-width: 450px) and (max-width: 850px) {
+    .portifolio .grid{
+        grid-template-columns: 200px 200px;
+    }
+    body{
+        background-size: 360%;
+    }  
+    .site-title{
+        font-size: 3em;
+    }
+    .site-subtitle{
+        font-size: 2em;
+    }
+    body{
+        background-size: cover;
+    }
+}
+
+@media (min-width: 850px) {
+    .portifolio .grid{
+        grid-template-columns: 260px 260px 260px;
+        justify-content: center;
+    }
+    .portifolio h2{
+        padding-left: 1em;
+        font-size: 2.5em;
+    }
+    .img-portfolio{
+        width: 230px;
+    }
+    body{
+        background-size: cover;
+    }
+}
