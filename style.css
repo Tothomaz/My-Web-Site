@@ -5,6 +5,7 @@
 }
 
 body{
+    font-size: 1.2em;
     background-image: url(./img/background/2109.jpg);
     background-size: 360%;
     background-repeat: no-repeat;
@@ -47,6 +48,7 @@ a:hover{
 
 .menu li{
     list-style: none;
+    font-size: 1.3em;
 }
 
 .site-title, .site-subtitle{
@@ -94,6 +96,74 @@ a:hover{
     justify-content: center;
 }
 
+.box-site-title2{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contato{
+    padding: 2em; 
+    background-color: #EEE0E5;
+}
+
+.grid-icons{
+    text-align: end;
+    padding-top: 1em;
+}
+
+.grid-icons a{
+    justify-content: end;
+    list-style: none;  
+    color: #00688B;
+    font-size: 2.2em;
+    padding-left: 0.2em;
+}
+
+fieldset{
+    width: 69vw;
+    height: 42vh;
+    display: flex;
+    flex-direction: column;
+    border-color: #00688b;
+    /*justify-content: center;*/
+    align-items: center;
+    align-content: space-between;
+    border-radius: 1em;
+}
+
+.nome-caixa{
+    font-size: 1.2em;
+    padding-bottom: 5px;
+    padding-top: 3px;
+}
+
+.caixa-escrita{
+    width: 15em;
+    height: 2.5em;
+    font-size: 0.9em;   
+}
+
+.caixa-escrita-mens{
+    width: 15em;
+    height: 8em;
+    font-size: 0.9em;
+}
+
+.botao-enviar{
+    margin: 0.9em;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    font-size: 1em;
+    border-color: #00688B;
+    color: white;
+    background-color: #00688b;
+    border-radius: 4px;
+}
+
 @media (min-width: 450px) and (max-width: 850px) {
     .portifolio .grid{
         grid-template-columns: 200px 200px;
@@ -109,6 +179,9 @@ a:hover{
     }
     body{
         background-size: cover;
+    }
+    fieldset{
+        height: 60vh;
     }
 }
 
@@ -127,4 +200,24 @@ a:hover{
     body{
         background-size: cover;
     }
+    .site-title, .site-title2 {
+        font-size: 5em;
+    }
+    .site-subtitle{
+        font-size: 3.5em;
+    }
+    .grid-icons{
+        padding-top: 1em;
+        text-align: end;     
+    }  
+    .grid-icons a{
+        list-style: none;  
+        color: #00688B;
+        font-size: 3em;
+        padding-left: 0.2em;
+    }
+    fieldset{
+        width: 260px;
+    }
+    
 }
