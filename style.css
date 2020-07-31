@@ -200,7 +200,7 @@ fieldset{
     body{
         background-size: cover;
     }
-    .site-title, .site-title2 {
+    .site-title {
         font-size: 5em;
     }
     .site-subtitle{
