@@ -70,16 +70,16 @@ a:hover{
     width: 200px;
 }
 
-.portifolio{
+.portfolio{
     padding: 2em; 
     background-color: #EEE0E5;
 }
 
-.portifolio figure{
+.portfolio figure{
     text-align: center;
 }
 
-.portifolio h2{
+.portfolio h2, .contato h2{
     color: #00688B; 
     margin-bottom: 1.5em;
     font-size: -1em;
@@ -89,7 +89,7 @@ a:hover{
     color: #00688B;
 }
 
-.portifolio .grid{
+.portfolio .grid{
     display: grid;    
     gap: 2em;
     grid-template-columns: 200px;
@@ -126,11 +126,10 @@ fieldset{
     height: 42vh;
     display: flex;
     flex-direction: column;
-    border-color: #00688b;
-    /*justify-content: center;*/
     align-items: center;
     align-content: space-between;
-    border-radius: 1em;
+    border-radius: 1em; 
+    border-color: #00688b;
 }
 
 .nome-caixa{
@@ -165,7 +164,7 @@ fieldset{
 }
 
 @media (min-width: 450px) and (max-width: 850px) {
-    .portifolio .grid{
+    .portfolio .grid{
         grid-template-columns: 200px 200px;
     }
     body{
@@ -186,11 +185,11 @@ fieldset{
 }
 
 @media (min-width: 850px) {
-    .portifolio .grid{
+    .portfolio .grid{
         grid-template-columns: 260px 260px 260px;
         justify-content: center;
     }
-    .portifolio h2{
+    .portfolio h2{
         padding-left: 1em;
         font-size: 2.5em;
     }
