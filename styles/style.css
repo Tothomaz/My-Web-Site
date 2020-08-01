@@ -122,7 +122,6 @@ nav.menu a:hover {
 
 fieldset{
     width: 69vw;
-    height: 42vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
