@@ -6,7 +6,7 @@
 
 body{
     font-size: 1.2em;
-    background-image: url(./img/background/2109.jpg);
+    background-image: url(../img/background/2109.jpg);
     background-size: 360%;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -35,7 +35,7 @@ header{
     padding: 10px 20px;
 }
 
-a:hover{
+nav.menu a:hover {
     background-color: #00688B;
     color: #EEE0E5;
     transition-duration: 0.5s;
@@ -48,7 +48,7 @@ a:hover{
 
 .menu li{
     list-style: none;
-    font-size: 1.3em;
+    font-size: 0.9em;
 }
 
 .site-title, .site-subtitle{
@@ -58,11 +58,11 @@ a:hover{
 }
 
 .site-title{
-    font-size: 3em;
+    font-size: 2.5em;
 }
 
 .site-subtitle{
-    font-size: 2em;
+    font-size: 1.5em;
     font-style: italic;
 }
 
@@ -118,7 +118,6 @@ a:hover{
     list-style: none;  
     color: #00688B;
     font-size: 2.2em;
-    padding-left: 0.2em;
 }
 
 fieldset{
@@ -139,13 +138,13 @@ fieldset{
 }
 
 .caixa-escrita{
-    width: 15em;
+    width: 12em;
     height: 2.5em;
     font-size: 0.9em;   
 }
 
 .caixa-escrita-mens{
-    width: 15em;
+    width: 12em;
     height: 8em;
     font-size: 0.9em;
 }
