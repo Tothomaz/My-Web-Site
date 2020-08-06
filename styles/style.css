@@ -70,7 +70,7 @@ nav.menu a:hover {
     width: 200px;
 }
 
-.portfolio{
+.portfolio, .sobre{
     padding: 2em; 
     background-color: #EEE0E5;
 }
@@ -79,9 +79,9 @@ nav.menu a:hover {
     text-align: center;
 }
 
-.portfolio h2, .contato h2{
+.portfolio h2, .sobre h2, .contato h2{
     color: #00688B; 
-    margin-bottom: 1.5em;
+    margin-bottom: 1em;
     font-size: -1em;
 }
 
@@ -96,16 +96,33 @@ nav.menu a:hover {
     justify-content: center;
 }
 
-.box-site-title2{
+.box-site-title-small{
     height: 80vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+.sobre .box-items {
+    margin-bottom: 2rem;
+    color: #00688B;
+}
+
+.sobre .box-items .box-img {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2em;
+}
+
+.sobre .box-items .box-img img {
+    height: 170px;
+    border-radius: 50%;
+}
+
 .contato{
     padding: 2em; 
     background-color: #EEE0E5;
+    color: #00688B;
 }
 
 .grid-icons{
