@@ -7,8 +7,8 @@ used to give more reach to my freelancer projects.
 
 ### How to access the site?
 
-You can access this site you can access the site
-by clicking on the following link: https://thomaztorres.github.io/my-site/
+You can access this site by clicking 
+on the following link: https://thomaztorres.github.io/my-site/
 
 ### Finish Considerations 
 
