@@ -1,0 +1,18 @@
+:root {
+    --color-background: #EEE0E5;
+    --color-primary: #00688B;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 1.2em;
+    background-image: url(../img/background/2109.jpg);
+    background-size: 360%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
